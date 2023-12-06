@@ -1,0 +1,21 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD
+    default "k380s" if BOARD_K380S
+config ZMK_KEYBOARD_NAME
+    default "k380s" if BOARD_K380S
+
+if BOARD_K380S
+
+config USB_NRFX
+    default n
+
+config USB_DEVICE_STACK
+    default n
+
+
+config BT_CTLR
+    default BT
+
+endif 

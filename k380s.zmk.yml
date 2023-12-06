@@ -1,0 +1,6 @@
+file_format: "1"
+id: k380s
+name: Logitech K380s
+type: board
+features:
+  - keys

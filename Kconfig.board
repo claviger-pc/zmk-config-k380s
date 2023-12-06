@@ -1,0 +1,8 @@
+# CKP boards configuration
+
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_K380S
+    bool "k380s"
+    depends on SOC_NRF52832_QFAB
